@@ -1,3 +1,3 @@
-const greet = require('./common-func-def.js');
+const greet = require('./common-func-def');
 
 console.log(greet);
