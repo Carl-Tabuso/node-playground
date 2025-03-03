@@ -1,14 +1,29 @@
 import { createServer } from 'node:http';
 
-const hostname = '127.0.0.1'
-const port = 3000
+const hostname = 'localhost';
+const port = 5000;
 
-export const server = createServer((req, res) => {
-    res.statusCode = 200
-    res.setHeader('Content-type', 'text/html')
-    res.end('Hello World')
-});
+const server = createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-type', 'text/html');
 
-server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}`)
+    if (req.url === '/') {
+        res.end('HOME');
+        return;  
+    }
+
+    if (req.url === '/about') {
+        res.end('ABOUT');
+        return;
+    }
+
+    res.end('404 | Not Found');
 })
+
+function startServer() {
+    server.listen(port, hostname, () => {
+        console.log(`Server running at http://${hostname}:${port}`);
+    });
+}
+
+export default startServer;
