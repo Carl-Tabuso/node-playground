@@ -6,8 +6,8 @@
 
 #### TODOS
 
-- [] Middleware
-- [] Query params
-- [] Methods/misc
+- [ ] Middleware
+- [ ] Query params
+- [ ] Methods/misc
 
 #### Practicing api development can be found in `/api` directory.
