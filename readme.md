@@ -1,5 +1,13 @@
-#### My Node.js playground
+### My Node.js playground
 
 - This will be the repo to track my progress learning node js so i can look back after 6 months and shit on myself for writing horrible messes.
 - Now, i'm to familiarize myself with the syntax, which is basically javascript that doesn't use browser as its runtime.
-- I should be able to learn variables, functions, conditionals, loops, data types, etc.
+
+
+#### TODOS
+
+- [] Middleware
+- [] Query params
+- [] Methods/misc
+
+#### Practicing api development can be found in `/api` directory.
