@@ -11,9 +11,6 @@
 - [x] Middleware
 - [x] Query strings
 - [x] Router parameters
-- [ ] Methods/misc
-- [ ] Error handling
-- [ ] MongoDB
-- [ ] Models
+- [x] Methods/misc
 
 #### Practicing api development can be found in `/api` directory.
