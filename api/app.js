@@ -8,6 +8,7 @@ const host = process.env.HOST;
 
 app.use('/api/v1', router);
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 app.listen(port, host, (err) => {
     console.log(`Server started at http://${host +':'+ port}`);

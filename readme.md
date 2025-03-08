@@ -6,9 +6,14 @@
 
 #### TODOS
 
-- [ ] Middleware
-- [ ] Query strings
-- [ ] Router parameters
+- [x] Routes
+- [x] Controllers
+- [x] Middleware
+- [x] Query strings
+- [x] Router parameters
 - [ ] Methods/misc
+- [ ] Error handling
+- [ ] MongoDB
+- [ ] Models
 
 #### Practicing api development can be found in `/api` directory.
